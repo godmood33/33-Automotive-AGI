@@ -1,0 +1,14 @@
+[project]
+name = "auto33"
+version = "0.0.1"
+description = "33 Automotive AGI MVP (read-only)"
+authors = [{name = "Ibrahim (godmood33)"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pyyaml",
+  "rich",
+]
+
+[project.scripts]
+auto33 = "auto33.main:run"
