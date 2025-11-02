@@ -1,0 +1,5 @@
+name: Toyota_generic
+signals:
+  speed_kph: {type: pid, id: "010D"}
+  rpm:       {type: pid, id: "010C"}
+  coolant_c: {type: pid, id: "0105"}

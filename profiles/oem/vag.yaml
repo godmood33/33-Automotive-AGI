@@ -1,0 +1,6 @@
+name: VAG_generic
+signals:
+  speed_kph: {type: pid, id: "010D"}
+  rpm:       {type: pid, id: "010C"}
+  coolant_c: {type: pid, id: "0105"}
+  fuel_level_pct: {type: pid, id: "012F"}
